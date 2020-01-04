@@ -1,0 +1,50 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community (Product=Microsoft.VisualStudio.Product.Community, Version=15.9.28307.960, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023 (Version=14.16.27034)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+UnrealBuildTool.Main: ERROR: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main: BuildException: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment.SetupEnvironment(UnrealTargetPlatform Platform) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:줄 463
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment..ctor(UnrealTargetPlatform Platform, WindowsCompiler Compiler, DirectoryReference CompilerDir, VersionNumber CompilerVersion, WindowsArchitecture Architecture, WindowsCompiler ToolChain, DirectoryReference ToolChainDir, VersionNumber ToolChainVersion, DirectoryReference WindowsSdkDir, VersionNumber WindowsSdkVersion) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:줄 144
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, UnrealTargetPlatform Platform, WindowsArchitecture Architecture, String CompilerVersion, String WindowsSdkVersion) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:줄 544
+UnrealBuildTool.Main:    위치: UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\UEBuildWindows.cs:줄 714
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 562
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, String Architecture, FileReference ProjectFile, CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 622
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 2224
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 720
+UnrealBuildTool.Main:    위치: UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:줄 176
+UnrealBuildTool.Main:    위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:줄 517
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.068) <unknown>
+Timeline.Print: [ 0.068](+0.410) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.479](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.479](+0.244) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.481          [ 0.002](+0.173) Initializing InstalledPlatformInfo
+Timeline.Print:   0.654          [ 0.175](+0.000) Querying types
+Timeline.Print:   0.657          [ 0.178](+0.002) MacPlatformFactory
+Timeline.Print:   0.659          [ 0.180](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.660          [ 0.180](+0.015) AndroidPlatformFactory
+Timeline.Print:   0.675          [ 0.196](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.676          [ 0.197](+0.037) IOSPlatformFactory
+Timeline.Print:   0.713          [ 0.234](+0.005) LinuxPlatformFactory
+Timeline.Print:   0.719          [ 0.239](+0.000) LuminPlatformFactory
+Timeline.Print:   0.719          [ 0.240](+0.003) WindowsPlatformFactory
+Timeline.Print: [ 0.723](+2.691) <unknown>
+Timeline.Print: [ 3.414](+0.002) Finding engine modules
+Timeline.Print: [ 3.416](+0.004) Finding plugin modules
+Timeline.Print: [ 3.421](+0.276) <unknown>
+Timeline.Print: [ 3.698](+0.000) Finding program modules
+Timeline.Print: [ 3.698](+0.000) Finding program targets
+Timeline.Print: [ 3.698](+0.193) <unknown>
+Timeline.Print: [ 3.891](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 3.896]

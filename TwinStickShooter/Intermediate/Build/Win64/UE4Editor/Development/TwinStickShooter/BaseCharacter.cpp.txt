@@ -1,7 +1,7 @@
 C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\Definitions.TwinStickShooter.h
 c:\users\gowjr\gitproject\unrealengine\twinstickshooter\source\twinstickshooter\BaseCharacter.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Inc\TwinStickShooter\BaseCharacter.generated.h

@@ -1,0 +1,43 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community (Product=Microsoft.VisualStudio.Product.Community, Version=15.9.28307.960, Sort=0)
+WindowsPlatform.GetDefaultCompiler: WARNING: Visual Studio 2017 is installed, but is missing the C++ toolchain. Please verify that the "VC++ 2017 toolset" component is selected in the Visual Studio 2017 installation options.
+UnrealBuildTool.Main: ERROR: Visual Studio 2017 must be installed in order to build this target.
+UnrealBuildTool.Main: BuildException: Visual Studio 2017 must be installed in order to build this target.
+UnrealBuildTool.Main:    위치: UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, UnrealTargetPlatform Platform, WindowsArchitecture Architecture, String CompilerVersion, String WindowsSdkVersion) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:줄 526
+UnrealBuildTool.Main:    위치: UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\UEBuildWindows.cs:줄 714
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 562
+UnrealBuildTool.Main:    위치: UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, String Architecture, FileReference ProjectFile, CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 622
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 2224
+UnrealBuildTool.Main:    위치: UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:줄 720
+UnrealBuildTool.Main:    위치: UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:줄 176
+UnrealBuildTool.Main:    위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:줄 517
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.094) <unknown>
+Timeline.Print: [ 0.094](+0.378) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.472](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.472](+0.250) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.474          [ 0.002](+0.165) Initializing InstalledPlatformInfo
+Timeline.Print:   0.639          [ 0.167](+0.000) Querying types
+Timeline.Print:   0.642          [ 0.169](+0.002) MacPlatformFactory
+Timeline.Print:   0.644          [ 0.172](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.645          [ 0.172](+0.029) AndroidPlatformFactory
+Timeline.Print:   0.674          [ 0.201](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.674          [ 0.202](+0.037) IOSPlatformFactory
+Timeline.Print:   0.711          [ 0.239](+0.007) LinuxPlatformFactory
+Timeline.Print:   0.718          [ 0.246](+0.000) LuminPlatformFactory
+Timeline.Print:   0.719          [ 0.247](+0.003) WindowsPlatformFactory
+Timeline.Print: [ 0.722](+3.409) <unknown>
+Timeline.Print: [ 4.131](+0.002) Finding engine modules
+Timeline.Print: [ 4.133](+0.005) Finding plugin modules
+Timeline.Print: [ 4.139](+0.299) <unknown>
+Timeline.Print: [ 4.438](+0.000) Finding program modules
+Timeline.Print: [ 4.438](+0.000) Finding program targets
+Timeline.Print: [ 4.438](+0.192) <unknown>
+Timeline.Print: [ 4.631](+0.004) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 4.641]
