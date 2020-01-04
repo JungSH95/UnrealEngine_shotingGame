@@ -1,0 +1,9 @@
+C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\Definitions.TwinStickShooter.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Source\TwinStickShooter/BaseCharacter.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+c:\users\gowjr\gitproject\unrealengine\twinstickshooter\intermediate\build\win64\ue4editor\inc\twinstickshooter\BaseCharacter.generated.h

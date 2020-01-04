@@ -1,0 +1,10 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gowjr\gitProject\UnrealEngine).
+  Parsing headers for TwinStickShooterEditor
+    Running UnrealHeaderTool "C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\TwinStickShooter.uproject" "C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\TwinStickShooterEditor\Development\TwinStickShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TwinStickShooterEditor in 6.2678975 seconds
+  Building TwinStickShooterEditor...
+  Using Visual Studio 2017 14.15.26730 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 8 actions with 4 processes...
+    [1/8] SharedPCH.Engine.ShadowErrors.cpp
+d:\epic games\ue_4.24\engine\source\runtime\core\public\Windows/WindowsPlatformCompilerSetup.h(22): error C2338: Visual Studio 2017 versions 15.7 and 15.8 are known to have code generation bugs that affect UE4. Please update to version 15.9.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""D:\Epic Games\UE_4.24\Engine\Build\BatchFiles\Build.bat" TwinStickShooterEditor Win64 Development -Project="C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\TwinStickShooter.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\gowjr\\gitProject\\UnrealEngine\\TwinStickShooter\\Source\\TwinStickShooter\\TwinStickShooter.Build.cs",
+		"C:\\Users\\gowjr\\gitProject\\UnrealEngine\\TwinStickShooter\\Source\\TwinStickShooter.Target.cs",
+		"C:\\Users\\gowjr\\gitProject\\UnrealEngine\\TwinStickShooter\\Source\\TwinStickShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.1"
+}

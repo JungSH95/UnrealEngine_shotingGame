@@ -1,0 +1,2 @@
+C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\Definitions.TwinStickShooter.h
+c:\users\gowjr\gitproject\unrealengine\twinstickshooter\source\twinstickshooter\TwinStickShooter.h
