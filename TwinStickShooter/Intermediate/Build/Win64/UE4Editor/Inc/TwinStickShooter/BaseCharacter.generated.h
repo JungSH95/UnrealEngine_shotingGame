@@ -14,8 +14,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TWINSTICKSHOOTER_BaseCharacter_generated_h
 
 #define TwinStickShooter_Source_TwinStickShooter_BaseCharacter_h_12_SPARSE_DATA
-#define TwinStickShooter_Source_TwinStickShooter_BaseCharacter_h_12_RPC_WRAPPERS
-#define TwinStickShooter_Source_TwinStickShooter_BaseCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define TwinStickShooter_Source_TwinStickShooter_BaseCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCalculateHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_delta); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CalculateHealth(Z_Param_delta); \
+		P_NATIVE_END; \
+	}
+
+
+#define TwinStickShooter_Source_TwinStickShooter_BaseCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCalculateHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_delta); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CalculateHealth(Z_Param_delta); \
+		P_NATIVE_END; \
+	}
+
+
 #define TwinStickShooter_Source_TwinStickShooter_BaseCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TwinStickShooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FC927FB5-D348-473E-AE20-A9C9F5867BE7}</UniqueIdentifier>
+      <UniqueIdentifier>{0D0AD1F4-B2E5-4415-8DBD-34264D2B7496}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TwinStickShooter.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\TwinStickBaseCharacterCode.docx" />
     <None Include="..\..\유튜브링크.txt" />
     <Filter Include="Config">
-      <UniqueIdentifier>{814E8ED1-552F-4C00-A61C-66CE341A5151}</UniqueIdentifier>
+      <UniqueIdentifier>{98E84234-8172-49A9-8D9D-5B0DBEB9E630}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TwinStickShooter">
-      <UniqueIdentifier>{6A478FAA-6FF2-4E7A-8368-94036E047359}</UniqueIdentifier>
+      <UniqueIdentifier>{D5D8F31C-7328-45D8-8B14-AEC61FD5BC8E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TwinStickShooter\BaseCharacter.cpp">
       <Filter>Source\TwinStickShooter</Filter>
