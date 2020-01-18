@@ -375,6 +375,8 @@
     <None Include="..\..\Config\DefaultInput.ini"/>
     <ClCompile Include="..\..\Source\TwinStickShooter\BaseCharacter.cpp"/>
     <ClInclude Include="..\..\Source\TwinStickShooter\BaseCharacter.h"/>
+    <ClCompile Include="..\..\Source\TwinStickShooter\Fountain.cpp"/>
+    <ClInclude Include="..\..\Source\TwinStickShooter\Fountain.h"/>
     <None Include="..\..\Source\TwinStickShooter\TwinStickShooter.Build.cs"/>
     <ClCompile Include="..\..\Source\TwinStickShooter\TwinStickShooter.cpp"/>
     <ClInclude Include="..\..\Source\TwinStickShooter\TwinStickShooter.h"/>

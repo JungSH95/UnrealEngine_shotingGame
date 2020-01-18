@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeTwinStickShooter_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6876AECD,
-				0x5F9B881D,
+				0x6026C914,
+				0xC8A0FDBF,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

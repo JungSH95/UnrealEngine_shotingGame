@@ -1,18 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\gowjr\gitProject\UnrealEngine).
-  Creating makefile for TwinStickShooterEditor (no existing makefile)
   Parsing headers for TwinStickShooterEditor
     Running UnrealHeaderTool "C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\TwinStickShooter.uproject" "C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\TwinStickShooterEditor\Development\TwinStickShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for TwinStickShooterEditor in 6.0601293 seconds
+  Reflection code generated for TwinStickShooterEditor in 6.455524 seconds
   Building TwinStickShooterEditor...
   Using Visual Studio 2017 14.16.27034 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 6 actions with 4 processes...
     [1/6] TwinStickShooter.init.gen.cpp
-    [2/6] BaseCharacter.cpp
-    [3/6] BaseCharacter.gen.cpp
-    [4/6] UE4Editor-TwinStickShooter-0001.lib
-       C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0001.lib 라이브러리 및 C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0001.exp 개체를 생성하고 있습니다.
-    [5/6] UE4Editor-TwinStickShooter-0001.dll
-       C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0001.suppressed.lib 라이브러리 및 C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0001.suppressed.exp 개체를 생성하고 있습니다.
+    [2/6] Fountain.gen.cpp
+    [3/6] Fountain.cpp
+    [4/6] UE4Editor-TwinStickShooter-0003.lib
+       C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0003.lib 라이브러리 및 C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0003.exp 개체를 생성하고 있습니다.
+    [5/6] UE4Editor-TwinStickShooter-0003.dll
+       C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0003.suppressed.lib 라이브러리 및 C:\Users\gowjr\gitProject\UnrealEngine\TwinStickShooter\Intermediate\Build\Win64\UE4Editor\Development\TwinStickShooter\UE4Editor-TwinStickShooter-0003.suppressed.exp 개체를 생성하고 있습니다.
     [6/6] TwinStickShooterEditor.target
-  Total time in Parallel executor: 1.98 seconds
-  Total execution time: 10.16 seconds
+  Total time in Parallel executor: 4.39 seconds
+  Total execution time: 11.77 seconds
